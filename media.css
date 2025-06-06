@@ -82,7 +82,7 @@ ul > li.item-menu > a{
 ul > li.item-menu:hover{
 
     background-color: rgb(0, 70, 105);
-    transition: background-color 0.3s;
+    transition: bacground-color 0.2s;
     
 }
 
@@ -108,7 +108,7 @@ main >nav.menu{
 
 ul > li.ativo{
 
-    background-color:rgb(0, 70, 105) ;
+     background-color: rgb(0, 70, 105);
    
 
 }
