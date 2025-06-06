@@ -1,0 +1,118 @@
+@charset 'UTF-8';
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+main{
+    height: 100%;
+    background-color: rgb(0, 32, 43);
+}
+
+header{
+    height: 120px;
+    background: linear-gradient(to right, rgb(0, 115, 157), #202020)
+}
+
+header h1{
+
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    margin: auto;
+    padding-top: 30px;
+
+}
+
+nav.menu{
+
+    width: 80px;
+    background-color:  rgb(0, 104, 142);
+    padding: 40px 0 40px 1%;
+    
+    box-shadow: 5px 0 0  rgb(0, 67, 100);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    
+
+}
+
+main > nav.menu.expandir{
+
+    width: 300px;
+}
+
+main > nav > div.btn-menu > i{
+
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+    padding-left: 10px;
+
+}
+
+ul{
+    list-style-type: none;
+    height: 100vh;
+}
+ul > li.item-menu{
+    padding-left:10px ;
+    
+}
+
+ul > li.item-menu > a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    line-height: 40px;
+    
+}
+
+ul > li.item-menu:hover{
+
+    background-color: rgb(0, 70, 105);
+    transition: background-color 0.3s;
+    
+}
+
+ul > li.item-menu > a > .link{
+   
+    margin-left: 40px;
+}
+
+
+ul > li.item-menu > a > .icone{
+
+    font-size: 30px;
+    margin-left: -10px;
+   
+}
+
+
+
+main >nav.menu{
+    transition: width 0.5s;
+}
+
+
+ul > li.ativo{
+
+    background-color:rgb(0, 70, 105) ;
+   
+
+}
+
