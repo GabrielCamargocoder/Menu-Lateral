@@ -22,7 +22,9 @@ main{
 
 header{
     height: 120px;
-    background: linear-gradient(to right, rgb(0, 115, 157), #202020)
+    background: linear-gradient(to right, rgb(0, 115, 157), #202020);
+    
+    
 }
 
 header h1{
@@ -33,7 +35,8 @@ header h1{
     margin: auto;
     padding-top: 30px;
     width: 200px;
-
+    
+    
 }
 
 main > nav.menu{
