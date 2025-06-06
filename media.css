@@ -45,7 +45,7 @@ main > nav.menu{
 
 main > nav.menu.expandir{
 
-    width: 300px;
+    width: 260px;
 }
 
 main > nav > div.btn-menu > i{
@@ -63,7 +63,7 @@ ul{
     height: 100vh;
 }
 ul > li.item-menu{
-    padding-left:10px ;
+    margin-left:10px ;
     
 }
 
@@ -88,8 +88,14 @@ ul > li.item-menu:hover{
 
 ul > li.item-menu > a > .link{
    
+    margin-left: 70px;
+    transition: 0.5s;
+}
+
+nav.menu.expandir  .link{
     margin-left: 40px;
 }
+
 
 
 ul > li.item-menu > a > .icone{
